@@ -1,0 +1,45 @@
+body {
+    background: #d2d2c1 url('imgs/fundo.png');
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Por enquanto a fomrtação serve para todos os links do site, mais adiante vai ser mostado como formatar apenas a barra do "menu" */
+a {
+    color: #4b566a;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+}
+/* Esta subistituindo o ID "#titulo*/
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
+
+#principal {
+    border: 1px none red;
+    width: 900px;
+}
+
+#paginas {
+
+    background-color: #c5c5b2;
+    /*Eespaçamento interno*/
+    padding: 15px;
+}
+
+#conteudo {
+    background-color: #e8e8e9;
+    border: 10px solid aliceblue;
+    padding: 10px;
+}
+
+#rodape {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.img-campanha {
+    border: 10px solid #c3c3ae;
+}
